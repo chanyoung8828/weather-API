@@ -20,7 +20,7 @@ const updateUI = (data) => {
   </div>`;
   } else {
     details.innerHTML = `
-  <img class = "card-img-botton" src='./img/night.jpg' />
+  <img class = "card-img-top" src='./img/night.jpg' />
   <h5 class="my-3">${cityName.EnglishName}</h5>
   <div class="my-3">${weather.WeatherText}</div>
   <div class="display-4 my-4">
